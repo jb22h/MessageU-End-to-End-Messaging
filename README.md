@@ -83,7 +83,7 @@ MessageU-End-to-End-Messaging/
 
 ### Server
 
-Create a file named `info.myport` in the server's working directory:
+Create a file named `myport.info` in the server's working directory:
 
 ```text
 1357
@@ -93,13 +93,13 @@ If the file is missing, the server uses port `1357`.
 
 ### Client
 
-Create a file named `info.server` in the client's working directory:
+Create a file named `server.info` in the client's working directory:
 
 ```text
 127.0.0.1:1357
 ```
 
-The client creates `info.me` after registration.
+The client creates `me.info` after registration.
 
 This file contains the username, UUID, and private key and must never be committed to GitHub.
 
@@ -117,7 +117,7 @@ python server.py
 
 1. Configure Boost.Asio and Crypto++ in the C++ build environment.
 2. Build `client.cpp`.
-3. Create the `info.server` configuration file in the client's working directory.
+3. Create the `server.info` configuration file in the client's working directory.
 4. Run the compiled client.
 5. Register a new user using option `110`.
 
@@ -198,9 +198,9 @@ It should not be used as a production messaging system without:
 
 The following runtime files are excluded from Git:
 
-- `info.me`
-- `info.server`
-- `info.myport`
+- `me.info`
+- `server.info`
+- `myport.info`
 - Build outputs
 - Executable files
 - Local database files
