@@ -1,0 +1,36 @@
+# Private identity and generated keys
+info.me
+
+# Local configuration
+info.server
+info.myport
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Visual Studio and C++ build files
+.vs/
+Debug/
+Release/
+x64/
+x86/
+build/
+out/
+*.exe
+*.obj
+*.pdb
+*.ilk
+*.dll
+*.lib
+
+# Runtime and database files
+db.defensive
+*.db
+
+# IDE and Windows files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
