@@ -27,9 +27,6 @@ MessageU uses:
 
 The server stores and forwards encrypted messages but does not decrypt their contents.
 
-> This project follows an academic protocol and is intended for educational purposes.
-> AES-CBC with a fixed zero IV is not secure for production systems.
-
 ## Architecture
 
 ```text
