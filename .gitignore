@@ -1,9 +1,10 @@
 # Private identity and generated keys
-info.me
+me.info
+my.info
 
 # Local configuration
-info.server
-info.myport
+server.info
+myport.info
 
 # Python generated files
 __pycache__/
