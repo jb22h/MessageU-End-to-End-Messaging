@@ -96,7 +96,7 @@ Create a file named `server.info` in the client's working directory:
 127.0.0.1:1357
 ```
 
-The client creates `me.info` after registration.
+The client creates `my.info` after registration.
 
 This file contains the username, UUID, and private key and must never be committed to GitHub.
 
@@ -195,7 +195,7 @@ It should not be used as a production messaging system without:
 
 The following runtime files are excluded from Git:
 
-- `me.info`
+- `my.info`
 - `server.info`
 - `myport.info`
 - Build outputs
